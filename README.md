@@ -2,7 +2,8 @@
 Submission for Competishun next round.
 
 GETTING STARTED
-Here's a README for your project:
+
+
 
 # Google Sheets Design App
 
