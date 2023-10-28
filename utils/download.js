@@ -1,10 +1,10 @@
 import * as Permissions from 'expo-permissions';
 import * as FileSystem from 'expo-file-system';
 import * as XLSX from 'xlsx';
-
+import * as MediaLibrary from 'expo-media-library';
+import { Alert } from 'react-native';
 // Your component function
-export default function YourComponent() {
-  const handleDownload = async () => {
+export default handleDownload = async (spreadsheetData) => {
     // Request permission to access the file system
     const { status } = await Permissions.askAsync(Permissions.MEDIA_LIBRARY);
 
@@ -15,7 +15,7 @@ export default function YourComponent() {
 
     try {
       // Create the XLSX worksheet
-      const worksheet = XLSX.utils.aoa_to_sheet(this.state.spreadsheetData);
+      const worksheet = XLSX.utils.aoa_to_sheet(spreadsheetData);
       const workbook = XLSX.utils.book_new();
       XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
 
@@ -34,11 +34,9 @@ export default function YourComponent() {
       await MediaLibrary.createAssetAsync(filePath);
 
       Alert.alert('Spreadsheet data has been downloaded and saved to your device.');
+      console.log(`${FileSystem.documentDirectory}`);
     } catch (error) {
       console.log('Error creating XLSX:', error);
       Alert.alert('Error creating XLSX file.');
     }
-  }
-
-  // ... rest of your component
 }
