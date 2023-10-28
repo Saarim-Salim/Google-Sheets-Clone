@@ -25,8 +25,8 @@ To get started with the Google Sheets Design App, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/google-sheets-design-app.git
-   cd google-sheets-design-app
+      git clone https://github.com/Saarim-Salim/competishunSubmission.git
+      cd google-sheets-design-app
    ```
 
 2. Install dependencies:
@@ -55,6 +55,7 @@ Include screenshots of your app to showcase its functionality. You can add image
 
 <img width="326" alt="image" src="https://github.com/Saarim-Salim/competishunSubmission/assets/20147775/5a09844c-c2eb-4e29-935a-bc1439a3ca50">
 <img width="1440" alt="Screenshot 2023-10-28 at 12 48 06 PM" src="https://github.com/Saarim-Salim/competishunSubmission/assets/20147775/30ca3234-ad41-4f48-b280-eaffcf67f962">
+<img width="399" alt="image" src="https://github.com/Saarim-Salim/competishunSubmission/assets/20147775/38d50827-86c3-4ef5-b741-22bcc4781b98">
 
 
 ## Dependencies
