@@ -77,6 +77,3 @@ We welcome contributions from the community to make the Google Sheets Design App
 4. Make your changes and commit them.
 5. Push the changes to your fork on GitHub.
 6. Create a pull request to the original repository.
-
-
-Feel free to modify and use this README to document your project. Replace the placeholders with your actual project details.
