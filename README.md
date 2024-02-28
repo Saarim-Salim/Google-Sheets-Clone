@@ -1,13 +1,13 @@
-# competishunSubmission
+# SheetFlow - A Google Sheets Clone
 Submission for Competishun next round.
 
 GETTING STARTED
 
 
 
-# Google Sheets Design App
+# SheetFlow Design App
 
-The Google Sheets Design App is a mobile application built using React Native that allows you to create and edit a simple spreadsheet-like interface. You can change cell values and download the spreadsheet in XLSX format.
+The SheetFlow App is a mobile application built using React Native that allows you to create and edit a simple spreadsheet-like interface. You can change cell values and download the spreadsheet in XLSX format.
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ To get started with the Google Sheets Design App, follow these steps:
 1. Clone the repository:
 
    ```bash
-      git clone https://github.com/Saarim-Salim/competishunSubmission.git
+      git clone https://github.com/Saarim-Salim/SheetFlow.git
       cd google-sheets-design-app
    ```
 
