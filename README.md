@@ -27,7 +27,7 @@ To get started with the Google Sheets Design App, follow these steps:
 
    ```bash
       git clone https://github.com/Saarim-Salim/SheetFlow.git
-      cd google-sheets-design-app
+      cd SheetFlow
    ```
 
 2. Install dependencies:
