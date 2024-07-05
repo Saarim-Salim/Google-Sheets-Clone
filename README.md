@@ -1,7 +1,5 @@
 # SheetFlow - A Google Sheets Clone
 A basic SPA for qualifying the hiring round of a company on college campus.
-GETTING STARTED
-
 
 
 # SheetFlow Design App
