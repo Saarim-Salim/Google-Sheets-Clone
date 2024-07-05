@@ -1,6 +1,5 @@
 # SheetFlow - A Google Sheets Clone
-Submission for Competishun next round.
-
+A basic SPA for qualifying the hiring round of a company on college campus.
 GETTING STARTED
 
 
